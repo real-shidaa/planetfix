@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.planetBotInterfce{
+ display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f0f0f0;; 
+  align-items:center;
+  gap: 60px; 
+  height: auto;
+  margin-top: 40px;
+}
+
+
+
+.h1{
+    font-size: 80px;
+    color: #2ECC71;
+    margin: 20px 0;
+    font-family: rubik spray paint;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.ornge{
+    color: #E67E22;
+    font-size: 80px;
+    font-family: rubik spray paint;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.yellow{
+    color: #F1C40F;
+    font-size: 80px;
+    font-family: rubik spray paint;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+textarea{
+      width: 700px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    resize: none;
+      padding-left: 10px;
+      padding-top: 10px;
+      box-sizing: border-box;
+}
+
+.textbox{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 18px;
+    
+
+}
+
+
+.enter{
+    width: 100px;
+    height: 50px;
+    background-color: #e25d5d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.enter:hover{
+    background-color: #c44c4c;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.category{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.clothing{
+    background-color: #2ECC71;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.transportation{
+    background-color: #E67E22;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.wasteDisposal{
+    background-color: #F1C40F;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.foodConsumption{
+  background-color: #3498DB;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Occupation{
+    background-color: #9B59B6;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.clothing:hover{
+    background-color: #27AE60;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.transportation:hover{
+    background-color: #D35400;
+    transition: background-color 0.3s ease-in-out;
+}
+.wasteDisposal:hover{
+    background-color: #F39C12;
+    transition: background-color 0.3s ease-in-out;
+}
+.foodConsumption:hover{
+    background-color: #2980B9;
+    transition: background-color 0.3s ease-in-out;
+}
+.Occupation:hover{
+    background-color: #8E44AD;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sign-in {
+  padding: 12px 24px;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in:hover {
+  background-color: #3367D6;
+}
+
+.generate-report {
+  margin-top: 0px;
+  padding: 12px 24px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.generate-report:hover {
+  background-color: #27ae60;
+}
+.generate-report:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+
+
+div.report-box {
+  width: 700px;             
+  height: 200px;          
+  overflow-y: auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-top: 10px;
+  white-space: pre-line;
+  line-height: 1.5;
+  font-size: 16px;
+  box-sizing: border-box;     
+}
+
+.report-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+.report-box::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.report-box::-webkit-scrollbar-thumb {
+  background: #8BC34A; 
+  border-radius: 10px;
+}
+
+.report-box::-webkit-scrollbar-thumb:hover {
+  background: #689F38;
+}
+
+.loading {
+  font-style: italic;
+  color: #4caf50;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+

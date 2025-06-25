@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: quicksand;
+}
+
+.navbar{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 72px;
+  background-color: #fff;
+}
+
+.right{
+    margin-top: 30px;
+    margin-right: 130px;
+}
+
+.left{
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+ul{
+    display: flex;
+   justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+
+li{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.past:hover{
+    color: #E67E22;
+    transition: color 0.3s ease;
+}
+.present:hover{
+    color: #F1C40F !important;
+      transition: color 0.3s ease;
+}
+.future:hover{
+    color: #2ECC71;
+    transition: color 0.3s ease;
+}
+a span.emoji {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+a:hover span.emoji {
+  transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+}
+
+.name{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.plnt{
+    color: #3498DB;
+}
+.fix{
+    color: #2ECC71;
+}
+
+.logo{
+    display: flex;
+    width: 110px;
+    max-height: 110px;
+    align-items: center;
+}
+@media (max-width: 768px) {
+  .logo img {
+    height: 36px;
+    width: 100px;
+  }
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.emoji{
+    font-size: 0.85em;
+    line-height: 1;
+    vertical-align: middle;
+      transition: transform 0.2s ease;
+}
+
+.auth-button {
+  margin-left: 20px;
+  display: flex;
+}
+
+.sign-in {
+  padding: 8px 16px;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.welcome {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2c3e50;
+}
